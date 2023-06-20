@@ -53,6 +53,7 @@ def parse_single_html(html):
     article_items = (
         soup.find("table", class_="olt")
             .find_all("tr", class_="")
+
     )
 
     datas = []
